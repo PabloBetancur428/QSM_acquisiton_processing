@@ -21,20 +21,25 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
   Methods: Utilizes Rapid Opensource Minimum Spanning TreE AlgOrithm (ROMEO)
   Output: Unwrapped phase images for each echo.
 
-   <p align="center">
-  <img src="images/phase_unwrapping.png" alt="Phase Unwrapped Image" width="200"/>
-   </p>
+<p align="center">
+<img src="images/phase_unwrapping.png" alt="Phase Unwrapped Image" width="200"/>
+</p>
 
 5. Background Field Removal
    Purpose: Eliminate background magnetic field contributions from air-tissue interfaces and large-scale inhomogeneities.
    Methods: Implements V-SHARP.
    Output: Local field maps, which should be visually checked for residual background artifacts.
+
    
-   ![Background Field Removal Example](images/background_f_removal.png)
+<p align="center">
+<img src="images/background_f_removal.png" alt="Phase Unwrapped Image" width="200"/>
+</p>
    
    
 7. Susceptibility Inversion (QSM Reconstruction)
    Purpose: Convert local field maps into quantitative susceptibility maps
    Methods: Implementation of TKD inversion algorithm
    Output: Final QSM images, which can be visualized as susceptibility maps in NIfTI format.
-   ![Quantitative Susceptibility Mapping (QSM) Image Example](images/QSM.png)
+<p align="center">
+<img src="images/QSM.png" alt="Phase Unwrapped Image" width="200"/>
+</p>
