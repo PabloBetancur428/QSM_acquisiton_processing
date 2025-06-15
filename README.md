@@ -5,6 +5,8 @@ This repository provides a comprehensive pipeline for Quantitative Susceptibilit
 ## Overview
 Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that estimates the magnetic susceptibility of tissues, offering insights into iron content, myelination, and other microstructural properties of the brain and other organs. This repository implements a robust, step-by-step QSM workflow, including preprocessing, background field removal, and susceptibility inversion, with clear outputs at each stage for visualization and quality control
 
+
+
 ## Pipeline Steps
 1. GRE Data Preparation
    Input: Multi-echo GRE magnitude (left) and phase images (right) (NIfTI format)
@@ -25,7 +27,7 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
 <img src="images/phase_unwrapping.png" alt="Phase Unwrapped Image" width="200"/>
 </p>
 
-5. Background Field Removal
+4. Background Field Removal
    Purpose: Eliminate background magnetic field contributions from air-tissue interfaces and large-scale inhomogeneities.
    Methods: Implements V-SHARP.
    Output: Local field maps, which should be visually checked for residual background artifacts.
@@ -36,10 +38,12 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
 </p>
    
    
-7. Susceptibility Inversion (QSM Reconstruction)
+5. Susceptibility Inversion (QSM Reconstruction)
    Purpose: Convert local field maps into quantitative susceptibility maps
    Methods: Implementation of TKD inversion algorithm
    Output: Final QSM images, which can be visualized as susceptibility maps in NIfTI format.
 <p align="center">
 <img src="images/QSM.png" alt="Phase Unwrapped Image" width="200"/>
 </p>
+
+The 'QSM_script_ready.sh' script serves as the main orchestrator for this repository. It connects and automates all the essential QSM processing steps described above, ensuring that each stage, from GRE data preparation to QSM reconstruction, is executed in the correct sequence. 
