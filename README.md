@@ -20,7 +20,7 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
   Output: Unwrapped phase images for each echo.
 
    <p align="center">
-  <img src="images/phase_unwrapping.png" alt="Phase Unwrapped Image" width="400"/>
+  <img src="images/phase_unwrapping.png" alt="Phase Unwrapped Image" width="200"/>
    </p>
 
 5. Background Field Removal
