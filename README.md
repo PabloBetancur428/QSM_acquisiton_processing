@@ -7,7 +7,7 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
 
 ## Pipeline Steps
 1. GRE Data Preparation
-   Input: Multi-echo GRE magnitude and phase images (NIfTI format)
+   Input: Multi-echo GRE magnitude (left) and phase images (right) (NIfTI format)
    Outputs: Organized data folders for each subject and session
 
 <p align="center">
