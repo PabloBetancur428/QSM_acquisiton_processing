@@ -10,9 +10,11 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
    Input: Multi-echo GRE magnitude and phase images (NIfTI format)
    Outputs: Organized data folders for each subject and session
 
-   
-   ![GRE Magnitude Example](images/magnitude.png)
-   ![GRE Phase Example](images/phase.png)
+   <p align="center">
+  <img src="images/magnitude.png" width="45%"/>
+  <img src="images/phase.png" width="45%"/>
+   </p>
+
   
 3. Phase Unwrapping
   Purpose: Remove 2*pi phase jumps to ensure phase continuity across the brain
