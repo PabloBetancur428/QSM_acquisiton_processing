@@ -10,6 +10,7 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
    Input: Multi-echo GRE magnitude and phase images (NIfTI format)
    Outputs: Organized data folders for each subject and session
 
+   
    ![GRE Magnitude Example](images/magnitude.png)
    ![GRE Phase Example](images/phase.png)
   
@@ -18,7 +19,9 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
   Methods: Utilizes Rapid Opensource Minimum Spanning TreE AlgOrithm (ROMEO)
   Output: Unwrapped phase images for each echo.
 
-  ![Unwrapped phase image Example](images/phase_unwrapping.png)
+   <p align="center">
+  <img src="images/phase_unwrapping.png" alt="Phase Unwrapped Image" width="400"/>
+   </p>
 
 5. Background Field Removal
    Purpose: Eliminate background magnetic field contributions from air-tissue interfaces and large-scale inhomogeneities.
