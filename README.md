@@ -11,8 +11,8 @@ Quantitative Susceptibility Mapping (QSM) is an advanced MRI technique that esti
    Outputs: Organized data folders for each subject and session
 
    <p align="center">
-  <img src="images/magnitude.png" width="45%"/>
-  <img src="images/phase.png" width="45%"/>
+  <img src="images/magnitude.png" alt="Magnitude" width="20%"/>
+  <img src="images/phase.png" alt="Phase" width="20%"/>
    </p>
 
   
